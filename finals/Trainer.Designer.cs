@@ -1,0 +1,384 @@
+﻿namespace finals
+{
+    partial class Trainer
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Trainer));
+            panel1 = new Panel();
+            pictureBox5 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            linkLabel4 = new LinkLabel();
+            linkLabel3 = new LinkLabel();
+            linkLabel2 = new LinkLabel();
+            pictureBox2 = new PictureBox();
+            linkLabel1 = new LinkLabel();
+            pictureBox1 = new PictureBox();
+            groupBox1 = new GroupBox();
+            button1 = new Button();
+            textBox1 = new TextBox();
+            dataGridView1 = new DataGridView();
+            dataGridView2 = new DataGridView();
+            dataGridView3 = new DataGridView();
+            dataGridView4 = new DataGridView();
+            dataGridView5 = new DataGridView();
+            dataGridView6 = new DataGridView();
+            dataGridView7 = new DataGridView();
+            dataGridView8 = new DataGridView();
+            dataGridView9 = new DataGridView();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView9).BeginInit();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaptionText;
+            panel1.Controls.Add(pictureBox5);
+            panel1.Controls.Add(pictureBox4);
+            panel1.Controls.Add(pictureBox3);
+            panel1.Controls.Add(linkLabel4);
+            panel1.Controls.Add(linkLabel3);
+            panel1.Controls.Add(linkLabel2);
+            panel1.Controls.Add(pictureBox2);
+            panel1.Controls.Add(linkLabel1);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(-24, -32);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(260, 871);
+            panel1.TabIndex = 2;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(49, 423);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(43, 25);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 8;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(49, 356);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(43, 25);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 7;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(49, 291);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(43, 25);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 6;
+            pictureBox3.TabStop = false;
+            // 
+            // linkLabel4
+            // 
+            linkLabel4.AutoSize = true;
+            linkLabel4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            linkLabel4.LinkBehavior = LinkBehavior.HoverUnderline;
+            linkLabel4.LinkColor = Color.White;
+            linkLabel4.Location = new Point(98, 356);
+            linkLabel4.Name = "linkLabel4";
+            linkLabel4.Size = new Size(104, 25);
+            linkLabel4.TabIndex = 5;
+            linkLabel4.TabStop = true;
+            linkLabel4.Text = "PROGRAM";
+            linkLabel4.VisitedLinkColor = Color.Blue;
+            // 
+            // linkLabel3
+            // 
+            linkLabel3.AutoSize = true;
+            linkLabel3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            linkLabel3.LinkBehavior = LinkBehavior.HoverUnderline;
+            linkLabel3.LinkColor = Color.White;
+            linkLabel3.Location = new Point(98, 423);
+            linkLabel3.Name = "linkLabel3";
+            linkLabel3.Size = new Size(90, 25);
+            linkLabel3.TabIndex = 4;
+            linkLabel3.TabStop = true;
+            linkLabel3.Text = "TRAINER";
+            linkLabel3.VisitedLinkColor = Color.Blue;
+            // 
+            // linkLabel2
+            // 
+            linkLabel2.AutoSize = true;
+            linkLabel2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            linkLabel2.LinkBehavior = LinkBehavior.HoverUnderline;
+            linkLabel2.LinkColor = Color.White;
+            linkLabel2.Location = new Point(98, 291);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(90, 25);
+            linkLabel2.TabIndex = 3;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "MEMBER";
+            linkLabel2.VisitedLinkColor = Color.Blue;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(45, 232);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(47, 25);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 2;
+            pictureBox2.TabStop = false;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
+            linkLabel1.LinkColor = Color.White;
+            linkLabel1.Location = new Point(98, 232);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(126, 25);
+            linkLabel1.TabIndex = 1;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "DASHBOARD";
+            linkLabel1.VisitedLinkColor = Color.Blue;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(24, 34);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(236, 137);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.Transparent;
+            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(textBox1);
+            groupBox1.ForeColor = SystemColors.ButtonHighlight;
+            groupBox1.Location = new Point(251, 23);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(840, 73);
+            groupBox1.TabIndex = 4;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "TRAINERS";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.DarkGray;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(711, 27);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 1;
+            button1.Text = "Search";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(477, 29);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(212, 31);
+            textBox1.TabIndex = 0;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToOrderColumns = true;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(251, 114);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(189, 111);
+            dataGridView1.TabIndex = 4;
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.AllowUserToOrderColumns = true;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(462, 114);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 62;
+            dataGridView2.Size = new Size(195, 111);
+            dataGridView2.TabIndex = 5;
+            dataGridView2.CellContentClick += dataGridView2_CellContentClick;
+            // 
+            // dataGridView3
+            // 
+            dataGridView3.AllowUserToOrderColumns = true;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView3.Location = new Point(678, 114);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.RowHeadersWidth = 62;
+            dataGridView3.Size = new Size(194, 111);
+            dataGridView3.TabIndex = 6;
+            // 
+            // dataGridView4
+            // 
+            dataGridView4.AllowUserToOrderColumns = true;
+            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView4.Location = new Point(892, 114);
+            dataGridView4.Name = "dataGridView4";
+            dataGridView4.RowHeadersWidth = 62;
+            dataGridView4.Size = new Size(199, 111);
+            dataGridView4.TabIndex = 7;
+            // 
+            // dataGridView5
+            // 
+            dataGridView5.AllowUserToOrderColumns = true;
+            dataGridView5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView5.Location = new Point(251, 250);
+            dataGridView5.Name = "dataGridView5";
+            dataGridView5.RowHeadersWidth = 62;
+            dataGridView5.Size = new Size(406, 222);
+            dataGridView5.TabIndex = 8;
+            // 
+            // dataGridView6
+            // 
+            dataGridView6.AllowUserToOrderColumns = true;
+            dataGridView6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView6.Location = new Point(251, 487);
+            dataGridView6.Name = "dataGridView6";
+            dataGridView6.RowHeadersWidth = 62;
+            dataGridView6.Size = new Size(406, 223);
+            dataGridView6.TabIndex = 9;
+            // 
+            // dataGridView7
+            // 
+            dataGridView7.AllowUserToOrderColumns = true;
+            dataGridView7.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView7.Location = new Point(678, 250);
+            dataGridView7.Name = "dataGridView7";
+            dataGridView7.RowHeadersWidth = 62;
+            dataGridView7.Size = new Size(194, 222);
+            dataGridView7.TabIndex = 10;
+            // 
+            // dataGridView8
+            // 
+            dataGridView8.AllowUserToOrderColumns = true;
+            dataGridView8.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView8.Location = new Point(678, 487);
+            dataGridView8.Name = "dataGridView8";
+            dataGridView8.RowHeadersWidth = 62;
+            dataGridView8.Size = new Size(194, 223);
+            dataGridView8.TabIndex = 11;
+            // 
+            // dataGridView9
+            // 
+            dataGridView9.AllowUserToOrderColumns = true;
+            dataGridView9.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView9.Location = new Point(897, 250);
+            dataGridView9.Name = "dataGridView9";
+            dataGridView9.RowHeadersWidth = 62;
+            dataGridView9.Size = new Size(194, 460);
+            dataGridView9.TabIndex = 12;
+            // 
+            // Trainer
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1112, 750);
+            Controls.Add(dataGridView9);
+            Controls.Add(dataGridView8);
+            Controls.Add(dataGridView7);
+            Controls.Add(dataGridView6);
+            Controls.Add(dataGridView5);
+            Controls.Add(dataGridView4);
+            Controls.Add(dataGridView3);
+            Controls.Add(dataGridView2);
+            Controls.Add(dataGridView1);
+            Controls.Add(groupBox1);
+            Controls.Add(panel1);
+            Name = "Trainer";
+            Text = "Trainer";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView9).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox3;
+        private LinkLabel linkLabel4;
+        private LinkLabel linkLabel3;
+        private LinkLabel linkLabel2;
+        private PictureBox pictureBox2;
+        private LinkLabel linkLabel1;
+        private PictureBox pictureBox1;
+        private GroupBox groupBox1;
+        private Button button1;
+        private TextBox textBox1;
+        private DataGridView dataGridView1;
+        private DataGridView dataGridView2;
+        private DataGridView dataGridView3;
+        private DataGridView dataGridView4;
+        private DataGridView dataGridView5;
+        private DataGridView dataGridView6;
+        private DataGridView dataGridView7;
+        private DataGridView dataGridView8;
+        private DataGridView dataGridView9;
+    }
+}
